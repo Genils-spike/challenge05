@@ -3,12 +3,9 @@
 		$i = 0;
 		$result = "";
 
-		while($i < count($tab)){
-			if(strlen($result) < strlen($tab[$i])){
+		for($i = 0; $i < count($tab); $i++)
+			if(strlen($result) < strlen($tab[$i]))
 				$result = $tab[$i];
-			}
-			$i++;
-		}
 
 	return $result;
 	}

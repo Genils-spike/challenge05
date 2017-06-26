@@ -29,11 +29,14 @@ article{
 h1{
 	width: 70vw;
 	margin: 25px auto;
-	font-size: 40px;
+	font-size: 4rem;
 	text-transform: uppercase;
 	text-align: center;
 }
 
+p{
+	font-size: 0.8rem;
+}
 
 article a{
 	bottom:0;
